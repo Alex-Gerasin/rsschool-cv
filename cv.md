@@ -1,9 +1,9 @@
 # Alexandr Gerasin 
 
 ## Contacts
-  mail: gerasinalex@yandex.ru
-  telegram: +7(988)494-77-73
-  Github: [Alex-Gerasin](https://github.com/Alex-Gerasin) 
+ * mail: gerasinalex@yandex.ru
+ * telegram: +7(988)494-77-73
+ * Github: [Alex-Gerasin](https://github.com/Alex-Gerasin) 
 
 ## About me
   I graduated from the Moscow Power Engineering Institute. I work at a power plant. But I want to learn a new profession - front-end development.
