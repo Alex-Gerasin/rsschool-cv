@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alex Gerasin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="my_photo" class="avatar">
+            <div class="Name">
+                <h1>Alex Gerasin</h1>
+                <h3>student of the RSschool</h3>
+                <div class = "Contacts">
+                    <h2>Contacts</h2>
+                        <span>gerasinalex@yandex.ru </span>|
+                        <a href="https://t.me/AlexGerasin" target="_blank">telegram</a> |
+                        <a href ="https://github.com/Alex-Gerasin" target="_blank">Github</a>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+
+         <div class="card bg-yellow">
+            <h2>About me</h2>
+        <p>I graduated from the Moscow Power Engineering Institute. I work at a power plant. But I want to learn a new profession - front-end development.
+        </p>
+         </div>   
+        <div class="card bg-green">
+            <h2>Skills</h2>
+        <ul class="list">
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+        </ul>
+        </div>
+        <div class="card bg-red">
+            <h2>Code example</h2>
+        <pre><code>
+            function deepCount(a){
+                let lenArr = 0;
+                lenArr += a.length;
+                for (let elem of a) {
+                  if (typeof(elem) == 'object') lenArr += deepCount(elem);
+                };
+                return lenArr;
+              };
+        </code></pre>
+        </div>
+        <div class="card bg-yellow">
+            <h2>Education</h2>
+        <ul class="list">
+            <li>University: MPEI (Industrial power engineering)</li>
+            <li>Online courses:
+                <ul>
+                    <li>CS50</li>
+                    <li>learn.javascript.ru (in progress)</li>
+                    <li>rs.school (in progress)</li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+        <div class="card bg-green">
+            <h2>English</h2>
+            <p>EPAM English test result: A1</p>
+        </div>
+        
+        <footer>
+            <span>2021</span>
+            <a href="https://github.com/Alex-Gerasin" target="_blank"><img src="github.jpg" alt="logo_github" width= "50"></a>
+            <a href="https://rs.school/js/" target="_blank"><img src="rs_school.svg" alt="logo_rsschool" width= "50" ></a>   
+        </footer>
+    </div>
+    
+</body>
+</html>
