@@ -53,17 +53,29 @@ a:visited {
     margin-bottom: 20px;
     border-radius: 20px;
 }
-.list{
-    padding: 0 20px;
-}
-.list li {
-    color: #86898f;
-    margin: 10px 0;
-}
+
 footer {
     text-align: center;
     display: inline-block;
 }
 footer a, footer span {
     margin-left: 150px;
+}
+ul li {
+    list-style-type: none;
+    margin: 0 5px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+.list {
+    display: block;
+}
+.list li ul{
+    display: block;
 }
