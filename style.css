@@ -12,6 +12,7 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
+   
 }
 .nav-link {
     padding: 0 20px;
@@ -28,7 +29,25 @@
     padding-left: 100px;
 }
 .footer {
-    border: 1px solid black;
     text-align: center;
-    display: inline-block;
+    background: #e5ffe7;
+}
+.footer img, span {
+    width:50px;
+    margin-left:100px;
+}
+.nav-list li {
+    list-style-type: none;
+}
+.header {
+    background: #e5ffe7;
+}
+a:hover {
+    background: red;
+}
+#contacts, #Skills, #education {
+    background: #fff9dc;
+}
+#about, #code, #lang {
+    background: #ffe5e5; 
 }
